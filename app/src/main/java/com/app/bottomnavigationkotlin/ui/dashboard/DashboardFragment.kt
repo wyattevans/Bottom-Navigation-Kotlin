@@ -11,6 +11,7 @@ import androidx.lifecycle.ViewModelProviders
 import com.app.bottomnavigationkotlin.R
 
 class DashboardFragment : Fragment() {
+    private val simpleTag = this::class.java.simpleName
 
     private lateinit var dashboardViewModel: DashboardViewModel
 
