@@ -21,7 +21,7 @@ class DashboardFragment : Fragment() {
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        Log.d(simpleTag, "Dashboard Fragment loaded.")
+        Log.d(simpleTag, getString(R.string.dashboard_fragment_loaded))
         dashboardViewModel =
                 ViewModelProviders.of(this).get(DashboardViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_dashboard, container, false)
