@@ -11,6 +11,7 @@ import androidx.lifecycle.ViewModelProviders
 import com.app.bottomnavigationkotlin.R
 
 class NotificationsFragment : Fragment() {
+    private val simpleTag = this::class.java.simpleName
 
     private lateinit var notificationsViewModel: NotificationsViewModel
 
