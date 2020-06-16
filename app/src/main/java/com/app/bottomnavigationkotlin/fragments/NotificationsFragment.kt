@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.app.bottomnavigationkotlin.R
-import com.app.bottomnavigationkotlin.ui.notifications.NotificationsViewModel
+import com.app.bottomnavigationkotlin.vm.NotificationsViewModel
 
 class NotificationsFragment : Fragment() {
     private val simpleTag = this::class.java.simpleName

@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.app.bottomnavigationkotlin.R
-import com.app.bottomnavigationkotlin.ui.home.HomeViewModel
+import com.app.bottomnavigationkotlin.vm.HomeViewModel
 
 class HomeFragment : Fragment() {
     private val simpleTag = this::class.java.simpleName
