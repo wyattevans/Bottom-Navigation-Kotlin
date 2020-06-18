@@ -1,6 +1,7 @@
 package com.app.bottomnavigationkotlin.fragments
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -21,6 +22,7 @@ class NotificationsFragment : Fragment() {
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
+        Log.d(simpleTag, "Notifications Fragment loaded.")
         notificationsViewModel =
                 ViewModelProviders.of(this).get(NotificationsViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_notifications, container, false)
