@@ -10,6 +10,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.app.bottomnavigationkotlin.R
 
 class MainActivity : AppCompatActivity() {
+    private val simpleTag = this::class.java.simpleName
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
