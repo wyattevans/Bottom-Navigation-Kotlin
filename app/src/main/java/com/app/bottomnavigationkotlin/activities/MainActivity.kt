@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Log.d(simpleTag, "Main Activity loaded.")
+        Log.d(simpleTag, getString(R.string.main_activity_loaded))
 
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
 
