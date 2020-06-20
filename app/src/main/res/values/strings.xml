@@ -7,4 +7,5 @@
     <string name="dashboard_fragment_loaded">Dashboard Fragment loaded.</string>
     <string name="main_activity_loaded">Main Activity loaded.</string>
     <string name="action_settings">Settings</string>
+    <string name="options_menu_loaded">Options Menu loaded.</string>
 </resources>
