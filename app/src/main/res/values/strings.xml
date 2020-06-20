@@ -6,4 +6,5 @@
     <string name="title_notifications">Notifications</string>
     <string name="dashboard_fragment_loaded">Dashboard Fragment loaded.</string>
     <string name="main_activity_loaded">Main Activity loaded.</string>
+    <string name="action_settings">Settings</string>
 </resources>
