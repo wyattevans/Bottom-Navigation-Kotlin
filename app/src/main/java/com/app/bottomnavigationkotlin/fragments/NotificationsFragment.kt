@@ -22,7 +22,7 @@ class NotificationsFragment : Fragment() {
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        Log.d(simpleTag, "Notifications Fragment loaded.")
+        Log.d(simpleTag, getString(R.string.notifications_fragment_loaded))
         notificationsViewModel =
                 ViewModelProviders.of(this).get(NotificationsViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_notifications, container, false)
