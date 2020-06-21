@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        Log.d(simpleTag, "Options Item Selected loaded.")
+        Log.d(simpleTag, getString(R.string.options_item_selected_loaded))
         return when (item.itemId) {
             R.id.action_settings -> true
             else -> super.onOptionsItemSelected(item)
