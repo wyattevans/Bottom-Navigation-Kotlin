@@ -10,4 +10,5 @@
     <string name="options_menu_loaded">Options Menu loaded.</string>
     <string name="options_item_selected_loaded">Options Item Selected loaded.</string>
     <string name="notifications_fragment_loaded">Notifications Fragment loaded.</string>
+    <string name="home_fragment_loaded">Home Fragment loaded.</string>
 </resources>
