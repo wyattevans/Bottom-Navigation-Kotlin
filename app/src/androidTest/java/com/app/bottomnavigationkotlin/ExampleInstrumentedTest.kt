@@ -1,5 +1,6 @@
 package com.app.bottomnavigationkotlin
 
+import android.util.Log
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
 
@@ -14,6 +15,7 @@ class ExampleInstrumentedTest {
 
     @Test
     fun useAppContext() {
+        Log.d(simpleTag, "useAppContext hit.");
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("com.app.bottomnavigationkotlin", appContext.packageName)
     }
