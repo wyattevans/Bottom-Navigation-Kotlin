@@ -10,6 +10,8 @@ import org.junit.Assert.*
 
 @RunWith(AndroidJUnit4::class)
 class ExampleInstrumentedTest {
+    private val simpleTag = this::class.java.simpleName
+
     @Test
     fun useAppContext() {
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
