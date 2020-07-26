@@ -11,11 +11,9 @@ import org.junit.Assert.*
 
 @RunWith(AndroidJUnit4::class)
 class ExampleInstrumentedTest {
-    private val simpleTag = this::class.java.simpleName
 
     @Test
     fun useAppContext() {
-        Log.d(simpleTag, "useAppContext hit.");
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("com.app.bottomnavigationkotlin", appContext.packageName)
     }

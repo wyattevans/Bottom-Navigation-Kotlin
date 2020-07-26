@@ -1,7 +1,6 @@
 package com.app.bottomnavigationkotlin.fragments
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,7 +12,6 @@ import com.app.bottomnavigationkotlin.R
 import com.app.bottomnavigationkotlin.vm.DashboardViewModel
 
 class DashboardFragment : Fragment() {
-    private val simpleTag = this::class.java.simpleName
 
     private lateinit var dashboardViewModel: DashboardViewModel
 
@@ -22,7 +20,6 @@ class DashboardFragment : Fragment() {
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        Log.d(simpleTag, getString(R.string.dashboard_fragment_loaded))
         dashboardViewModel =
                 ViewModelProvider(this).get(DashboardViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_dashboard, container, false)

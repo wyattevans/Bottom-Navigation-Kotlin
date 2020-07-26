@@ -1,7 +1,6 @@
 package com.app.bottomnavigationkotlin.fragments
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,7 +12,6 @@ import com.app.bottomnavigationkotlin.R
 import com.app.bottomnavigationkotlin.vm.HomeViewModel
 
 class HomeFragment : Fragment() {
-    private val simpleTag = this::class.java.simpleName
 
     private lateinit var homeViewModel: HomeViewModel
 
@@ -22,7 +20,6 @@ class HomeFragment : Fragment() {
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        Log.d(simpleTag, getString(R.string.home_fragment_loaded))
         homeViewModel =
                 ViewModelProviders.of(this).get(HomeViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_home, container, false)
